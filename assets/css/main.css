@@ -195,10 +195,18 @@ input, select, textarea {
 
 		}
 
-	h2, h5, h6 {
+	h2, h6 {
 		font-weight: 900;
 		line-height: 1.5;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
+		text-transform: uppercase;
+		letter-spacing: -0.035em;
+
+	}
+	h5 {
+		font-weight: 900;
+		line-height: 1.5;
+		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 		letter-spacing: -0.035em;
 
@@ -219,8 +227,7 @@ input, select, textarea {
 		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 		letter-spacing: -0.035em;
-		display: inline-block; /* Make underline only as wide as the text */
-		border-bottom: 2px solid #333; /* Add underline */
+
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -240,7 +247,7 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.8em;
+		font-size: 1.5em;
 	}
 
 	h6 {
