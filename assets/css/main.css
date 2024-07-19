@@ -2396,7 +2396,18 @@ input, select, textarea {
 				.image.normal img {
 				width: 30%;
 			}
-
+			.image.ok {
+				display: block;
+				margin: 0 auto 1.5em auto; /* Centers the image horizontally */
+				width: 60%; /* Reduces the width to 60% of its container */
+				max-width: 300px; /* Sets a smaller maximum width */
+			}
+			
+			.image.ok img {
+				width: 100%; /* Makes the image fill its container */
+				height: auto; /* Maintains aspect ratio */
+			}
+			
 		
 
 			@media screen and (max-width: 736px) {
